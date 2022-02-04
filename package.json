@@ -1,5 +1,5 @@
 {
-  "name": "react-rbac",
+  "name": "@phyolim/react-rbac",
   "version": "1.0.0",
   "description": "role based access control hook",
   "author": "phyolim",

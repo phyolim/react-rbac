@@ -1,10 +1,22 @@
-import React from 'react'
-
-import { ExampleComponent } from 'react-rbac'
-import 'react-rbac/dist/index.css'
+import React from 'react';
+import { ExampleComponent, RbacProvider } from 'react-rbac';
+import 'react-rbac/dist/index.css';
+import { ExampleRbacComponent } from './ExampleRbacComponent';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+  const permissions = {
+    regularSettings: {
+      user: ['r', 'u'],
+      admin: ['r', 'u'],
+    },
+    advancedSettings: { user: ['r'], admin: ['u', 'r'] },
+  };
 
-export default App
+  return (
+    <RbacProvider permissions={permissions}>
+      <ExampleRbacComponent />
+    </RbacProvider>
+  );
+};
+
+export default App;
