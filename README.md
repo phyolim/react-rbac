@@ -2,7 +2,7 @@
 
 > role based access control for react apps
 
-[![NPM](https://img.shields.io/npm/v/react-rbac.svg)](https://www.npmjs.com/package/@phyolim/react-rbac) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@phyolim/react-rbac.svg)](https://www.npmjs.com/package/@phyolim/react-rbac) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
