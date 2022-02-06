@@ -14,6 +14,7 @@ const App = () => {
 
   return (
     <RbacProvider permissions={permissions}>
+      <ExampleComponent text='Role based access control demo' />
       <ExampleRbacComponent />
     </RbacProvider>
   );
