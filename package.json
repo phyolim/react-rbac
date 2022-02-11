@@ -1,6 +1,6 @@
 {
   "name": "@phyolim/react-rbac",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "role based access control hook",
   "author": "phyolim",
   "license": "MIT",
